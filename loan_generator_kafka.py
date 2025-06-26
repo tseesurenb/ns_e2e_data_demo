@@ -17,11 +17,11 @@ class KafkaLoanGenerator:
         
         # Kafka configuration - UPDATE THESE WITH YOUR CONFLUENT CLOUD VALUES
         self.kafka_config = {
-            'bootstrap.servers': 'YOUR_BOOTSTRAP_SERVER',  # e.g., 'pkc-xxxxx.us-west-2.aws.confluent.cloud:9092'
+            'bootstrap.servers': 'pkc-921jm.us-east-2.aws.confluent.cloud:9092',  # e.g., 'pkc-xxxxx.us-west-2.aws.confluent.cloud:9092'
             'security.protocol': 'SASL_SSL',
             'sasl.mechanisms': 'PLAIN',
-            'sasl.username': 'YOUR_API_KEY',
-            'sasl.password': 'YOUR_API_SECRET',
+            'sasl.username': 'UNQA65VNTX7PQQMB',
+            'sasl.password': 't523NKLTQbrQmijZgdKqpXzou/jDyMSC7H3jKpDBuIQr//v04MHLRkr3Ucn/ow7k',
         }
         
         self.producer = None
