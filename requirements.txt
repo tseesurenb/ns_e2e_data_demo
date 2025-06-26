@@ -1,3 +1,2 @@
 faker==20.1.0
 pandas==2.1.4
-sqlite3  # Built into Python
